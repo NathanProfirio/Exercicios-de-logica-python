@@ -1,5 +1,9 @@
 import time 
 from datetime import date 
+#==========================================================================================================================================================================
+#contagem regressiva para o ano  novo
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # for c in range(10, -1, -1):
 #     time.sleep(1)
 #     print(c)
@@ -17,6 +21,9 @@ from datetime import date
 #             soma = soma + c
 # print('existem {} numeros impares entre 0 e 500 que são multiplos de 3 e a soma de todos os numeros e {}'.format(contagem, soma))
 #==========================================================================================================================================================================
+#tabuada de multiplicação de qualqeur numero
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # print('digite um numero para ver a tabuada de multiplicação desse numero')
 # numero = int(input('o numero: '))
 # print('='*20)
@@ -37,6 +44,9 @@ from datetime import date
 # for c in range(primeiro, decimo, razão):
 #     print(c)
 #==========================================================================================================================================================================
+#verificador de textos polindromo
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # print('escreva um texto para saber se ele e um palindromo')
 # texto = str(input('texto: ')).upper().split()
 # junta = ''.join(texto)
@@ -49,6 +59,9 @@ from datetime import date
 # else:
 #     print('a frase digitada não e um polídromo')
 #==========================================================================================================================================================================
+#ler a idade de varias pessoas e verifica quantas pessoas são maiores e menores de idade
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # menor = 0
 # maior = 0
 # ano_atual = date.today().year
@@ -61,6 +74,9 @@ from datetime import date
 #         maior = maior +1
 # print('tem {} pessoas maiores de idade e tem {} pessoas menor de idade '.format(maior, menor))
 #==========================================================================================================================================================================
+#ler o nome de 5 pessoas e no no final mostra a pessoa mais pesada e a pessoa masi leve 
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # maior = 0
 # meno = 0 
 # for p in range(1, 6):
@@ -75,7 +91,11 @@ from datetime import date
 #           menor = peso
 # print('o peso da pessoa mais pesada e {}'.format(maior))
 # print('o peso da pessoa mais leve e {}'.format(menor))
+
 #==========================================================================================================================================================================
+#program ler nome idade e sexo de 4 pessoas e mostra a media de idade das pessoas a idade do homem mais velho e quantas mulhere tem menos de 20 anos
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 # media = 0
 # homem_mais_velho = 0
 # nome_mais_velho = 0
@@ -105,3 +125,4 @@ from datetime import date
 # print('A idade do homem mais velho e {} e seu nome e {}'.format(homem_mais_velho, nome_mais_velho))
 # print('A quantidade de mulheres que tem menos de 20 anos e: {}'.format(mulher_menor_de_20))
 #==========================================================================================================================================================================
+

@@ -1,0 +1,5 @@
+print('=' * 18)
+real = float (input('Digite quantos reais voce quer corverte R$'))
+dolar = float(input("Digite o valor do dolar hoje: "))
+resultado = (real / dolar)
+print('seu reais convertido para dolares equivalem a ${:.2f} dolares'.format(resultado))

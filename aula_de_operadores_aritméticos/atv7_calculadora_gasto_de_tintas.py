@@ -1,0 +1,6 @@
+print('para saber quanto de tinta voce vai gasta para pinta uma parede digite a largura e altura da parede')
+largura = float(input('Qual a largura das parede? '))
+altura = float(input('Qual a altura da parede? '))
+area = float(largura * altura)
+tinta = int( (area / 2))
+print('voce vai gasta {} latas de tinta'.format(tinta))

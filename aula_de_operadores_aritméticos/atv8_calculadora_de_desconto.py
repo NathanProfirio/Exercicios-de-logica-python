@@ -1,0 +1,5 @@
+preço = float(input('digite o valor do produto sem desconto: '))
+desconto = int(input('digite quantos porcentos de desconto sera aplicado no produto: '))
+convesao = (desconto/100)
+valor = (preço - preço * convesao)
+print('o preço do produto com {}{} sera: {:.2f} '.format(desconto,'%', valor))
