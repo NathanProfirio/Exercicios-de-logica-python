@@ -1,0 +1,9 @@
+primeiro = int(input('primeiro numero: '))
+segundo = int(input('segundo numero: '))
+
+if primeiro > segundo:
+   print('o numero {} e maior que {}'.format(primeiro, segundo))
+elif segundo > primeiro:
+   print('o numero {} e maior que {}'.format(segundo, primeiro))
+else:
+   print('os dois valores são iquais')

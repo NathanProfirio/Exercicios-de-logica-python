@@ -1,0 +1,20 @@
+#verifica se você precisa se alistar
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+from datetime import date
+
+print('para saber se voce precisa se alistar responda as perguntas abaixo' )
+sexo = int(input('qual seu sexo? \n[ 1 ] Masculino \n[ 2 ] Feminino \nresporta: '))
+ano = int(input('escreva o ano que voce nasceu: '))
+atual = date.today().year
+idade = atual - ano
+if sexo == 2 :
+    print('o alistamento militar não e obrigatorio para mulheres voce não precisa se alistar')
+elif idade < 18:
+    falta = 18 - idade
+    print(f'ainda não precisa se alistar falta {falta}')
+elif idade == 18:
+    print('esta na hora de voce se alistar')
+else:
+    passou = idade - 18
+    print(f'voce ja deveria ter se alistado a {passou} anos se voce ainda não se alistou procure a junta militar mais proxima da sua cidade')
