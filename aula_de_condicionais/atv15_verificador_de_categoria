@@ -1,0 +1,18 @@
+#verificar de categoria de uma pessoa (mirim, infantil, junior, sênior, master)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+from datetime import date
+
+nascimento = int(input('escreva o ano que voce nasceu para saber em qual categoria voce competi: '))
+atual = date.today().year
+idade = atual - nascimento
+if idade <= 9:
+    print('voce tem {} de idade e ira participa da categoria mirim'.format(idade))
+elif idade <= 14:
+    print('voce tem {} de idade e ira participa da categoria infantil'.format(idade))
+elif idade <= 19:
+    print('voce tem {} de idade e ira participa da categoria junior'.format(idade))
+elif idade <= 20:
+    print('voce tem {} de idade e ira participa da categoria sênior'.format(idade))
+elif idade > 20:
+    print('voce tem {} de idade e ira participa da categoria master'.format(idade))

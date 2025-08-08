@@ -1,0 +1,12 @@
+#calculadora de media de duas notas
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+primeira = float(input('sua primeira nota: '))
+segunda = float(input('sua segunda nota: '))
+media = (primeira + segunda) / 2
+if media <= 5:
+    print('sua media foi {} infelizmente voce reprovou'.format(media))
+elif media < 7:
+    print('Sua media e {} voce precisa fazer a recuperação'.format(media))
+elif media >= 7.00:
+    print('parabens sua media foi {} voce foi aprovado'.format(media))
